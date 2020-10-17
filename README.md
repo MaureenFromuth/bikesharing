@@ -64,4 +64,4 @@ Let’s take a look at the basics of CitiBike's NYC users in August - there are 
 
 >**User Overview Workbook**
 
-![User Overview Workbook](https://public.tableau.com/profile/marty4826#!/vizhome/UserOverviewWorkbook/CitiBike)
+[User Overview Workbook](https://public.tableau.com/profile/marty4826#!/vizhome/UserOverviewWorkbook/CitiBike)
