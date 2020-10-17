@@ -12,7 +12,7 @@ Our primary customer for this project is a potential seed investor for you and y
 - What is the most common length of a bike ride?
 
 
-To answer these questions, we downloaded a [CVS file] (201908-citibike-tripdata.csv.zip) from Citibike’s public facing site for activity in August 2019.  This data contains a number of different fields to include the following:
+To answer these questions, we downloaded a [CVS file](201908-citibike-tripdata.csv.zip) from Citibike’s public facing site for activity in August 2019.  This data contains a number of different fields to include the following:
 - Trip Duration (Sec)
 - Start Time (Date Time)
 - Stop Time (Date Time)
@@ -67,6 +67,8 @@ Let’s take a look at the basics of CitiBike's NYC users in August - there are 
 ![User Overview Workbook](https://github.com/MaureenFromuth/bikesharing/blob/main/Overview.png)
 
 
+
+
 ***When Do People Get Bikes?***
 
 What time of day to most people get bikes? In August in NYC, we see users starting rides primarily from 7am-10pm, with the greatest usage from 7am-9am and then again from 4pm-7pm.  This makes sense considering the transit times of most people to/from work.  Additionally, considering the lighter hours in the summer, 7pm is still early enough for daylight and therefore bike riding to be high.  
@@ -75,6 +77,8 @@ What time of day to most people get bikes? In August in NYC, we see users starti
 >**[Ride Start Times in August](https://public.tableau.com/profile/marty4826#!/vizhome/RideStartTimesinAugust/RideStartTimesinAugust)**
 
 ![Ride Start Times in August](https://github.com/MaureenFromuth/bikesharing/blob/main/Start%20Times.png)
+
+
 
 
 
@@ -88,6 +92,8 @@ Let's break down the start and end of trips even further into days of the week. 
 
 
 
+
+
 ***What Hour per Day of the Week to Users Take Trips the Most Based on Gender?***
 
 If we then break the graph above down one step further and look at gender, is there a difference?  As you can see, the trend is the same for male and female riders, but, as we pointed out in the overview, there are more male riders than female.  Interestingly, the trend is slightly different for unknown riders, with the preponderance being on the weekends between 11am and 6pm.  Does this difference in trend have anything to do with whether or not the ‘unknown’ gender is usually assigned to non-subscribing customers who do not have to identify a gender?  
@@ -95,6 +101,8 @@ If we then break the graph above down one step further and look at gender, is th
 >**[Trips by Gender (Weekday per Hour)](https://public.tableau.com/profile/marty4826#!/vizhome/TripsbyGenderWeekdayperHour_16028153655880/TripsbyGenderWeekdayperHour)**
 
 ![Trips by Gender (Weekday per Hour)](https://github.com/MaureenFromuth/bikesharing/blob/main/Gender%20Weekday%20per%20Hour.png)
+
+
 
 
 
@@ -106,6 +114,8 @@ If we break down gender usage per day into user types, you see most males and fe
 >**[User Trips by Gender by Weekday](https://public.tableau.com/profile/marty4826#!/vizhome/UserTripsbyGenderbyWeekday_16028155069180/UserTripsbyGenderbyWeekday)**
 
 ![User Trips by Gender by Weekday](https://github.com/MaureenFromuth/bikesharing/blob/main/Gender%20by%20Weekday.png)
+
+
 
 
 
@@ -122,6 +132,8 @@ Using the Trip Duration column we transformed, we can see that bike ride duratio
 
 
 
+
+
 ***How Long are Bikes Out For Based On Gender?***
 
 If we dive one level deeper, we can see that bike ride duration peaks at 5 min for both males and females, but is steady for unknown.  Again, with the knowledge of the overall breakout from our first analysis and study of the overall data, this is not surprising.  
@@ -132,5 +144,6 @@ If we dive one level deeper, we can see that bike ride duration peaks at 5 min f
 >**[Checkout Times by Gender](https://public.tableau.com/profile/marty4826#!/vizhome/CheckoutTimesforUsers_16028148200070/CheckoutTimesforUsers)**
 
 ![Checkout Times by Gender](https://github.com/MaureenFromuth/bikesharing/blob/main/Checkout%20Times%20by%20Gender.png)
+
 
 
