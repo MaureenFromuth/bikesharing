@@ -62,6 +62,75 @@ The Citibank data provides key details that highlights trends in bike usage, and
 Let’s take a look at the basics of CitiBike's NYC users in August - there are over 2.3M users, with most of those users being subscribers (approx 80%) and male (approx 70%).  As such, when we break out gender and/or customer type in each of our trend analysis questions, you will see that trend stronger in males and subscribers comparatively.     
 
 
->**User Overview Workbook**
+>**[User Overview Workbook](https://public.tableau.com/profile/marty4826#!/vizhome/UserOverviewWorkbook/CitiBike)**
 
-[User Overview Workbook](https://public.tableau.com/profile/marty4826#!/vizhome/UserOverviewWorkbook/CitiBike)
+![User Overview Workbook](https://github.com/MaureenFromuth/bikesharing/blob/main/Overview.png)
+
+
+***When Do People Get Bikes?***
+
+What time of day to most people get bikes? In August in NYC, we see users starting rides primarily from 7am-10pm, with the greatest usage from 7am-9am and then again from 4pm-7pm.  This makes sense considering the transit times of most people to/from work.  Additionally, considering the lighter hours in the summer, 7pm is still early enough for daylight and therefore bike riding to be high.  
+
+
+>**[Ride Start Times in August](https://public.tableau.com/profile/marty4826#!/vizhome/RideStartTimesinAugust/RideStartTimesinAugust)**
+
+![Ride Start Times in August](https://github.com/MaureenFromuth/bikesharing/blob/main/Start%20Times.png)
+
+
+
+***What Hour per Day of the Week to Users Take Trips the Most?***
+
+Let's break down the start and end of trips even further into days of the week.  The majority of rides are again between 7am-9am and 5pm-6pm, but not surprisingly they are during the traditional work week of Monday through Friday.   On the weekend, however, we see most rides from 10am-6pm, matching the fact that most people do not work on the weekends and therefore can be out traveling on a bike outside of the transit times.
+
+>**[Trips by Weekday per Hour](https://public.tableau.com/profile/marty4826#!/vizhome/TripsbyWeekdayperHour/TripsbyWeekdayperHour)**
+
+![Trips by Weekday per Hour](https://github.com/MaureenFromuth/bikesharing/blob/main/Weekday%20per%20Hour.png)
+
+
+
+***What Hour per Day of the Week to Users Take Trips the Most Based on Gender?***
+
+If we then break the graph above down one step further and look at gender, is there a difference?  As you can see, the trend is the same for male and female riders, but, as we pointed out in the overview, there are more male riders than female.  Interestingly, the trend is slightly different for unknown riders, with the preponderance being on the weekends between 11am and 6pm.  Does this difference in trend have anything to do with whether or not the ‘unknown’ gender is usually assigned to non-subscribing customers who do not have to identify a gender?  
+
+>**[Trips by Gender (Weekday per Hour)](https://public.tableau.com/profile/marty4826#!/vizhome/TripsbyGenderWeekdayperHour_16028153655880/TripsbyGenderWeekdayperHour)**
+
+![Trips by Gender (Weekday per Hour)](https://github.com/MaureenFromuth/bikesharing/blob/main/Gender%20Weekday%20per%20Hour.png)
+
+
+
+***Does Weekday Usage per Gender Change Based on User Type?***
+
+If we break down gender usage per day into user types, you see most males and females are subscribers, and unknown tend to be customers.  This answers the question above in the previous assessment, and confirms that a likely reason why you see more ‘unknown’ gender riders on the weekend is because they are typically non-subscribers.  Of note, there is an interesting trend on weekday usage by male and female subscribers: Monday, Tuesday, Thursday and Friday have high usage while Wednesday is less active.  This may be for a number of reasons to include shift work, as many shift-work users will have their overlap days on Wednesday.  
+
+
+>**[User Trips by Gender by Weekday](https://public.tableau.com/profile/marty4826#!/vizhome/UserTripsbyGenderbyWeekday_16028155069180/UserTripsbyGenderbyWeekday)**
+
+![User Trips by Gender by Weekday](https://github.com/MaureenFromuth/bikesharing/blob/main/Gender%20by%20Weekday.png)
+
+
+
+***How Long are Bikes Out For?***
+
+Using the Trip Duration column we transformed, we can see that bike ride duration peaks at 5 min.  For a city, this is fairly common as most places are relatively close together.  There are, however, some users who keep the bike past 5 minutes and some out over well over 24 hours.  
+
+*Of note, the graph below shows hours and minutes, which is what is stated as ‘correct’ in the module.  This is, however, inaccurate - it should be identified as minutes and seconds instead.  This would require a change in the initial Python/Pandas code above from ‘m’ as units to ’ns’ as units.  In order to keep with the module, I did not make any changes but you can see in this paragraph the changes I would have made.* 
+
+
+>**[Checkout Times for Users](https://public.tableau.com/profile/marty4826#!/vizhome/CheckoutTimesforUsers_16028148200070/CheckoutTimesforUsers)**
+
+![Checkout Times for Users](https://github.com/MaureenFromuth/bikesharing/blob/main/Checkout%20Times.png)
+
+
+
+***How Long are Bikes Out For Based On Gender?***
+
+If we dive one level deeper, we can see that bike ride duration peaks at 5 min for both males and females, but is steady for unknown.  Again, with the knowledge of the overall breakout from our first analysis and study of the overall data, this is not surprising.  
+
+*Of note, as with the previous graph, the graph below shows hours and minutes, which is what is stated as ‘correct’ in the module.  This is, however, inaccurate - it should be identified as minutes and seconds instead.  This would require a change in the initial Python/Pandas code above from ‘m’ as units to ’ns’ as units.  In order to keep with the module, I did not make any changes but you can see in this paragraph the changes I would have made.* 
+
+
+>**[Checkout Times by Gender](https://public.tableau.com/profile/marty4826#!/vizhome/CheckoutTimesforUsers_16028148200070/CheckoutTimesforUsers)**
+
+![Checkout Times by Gender](https://github.com/MaureenFromuth/bikesharing/blob/main/Checkout%20Times%20by%20Gender.png)
+
+
