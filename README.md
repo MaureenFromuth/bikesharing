@@ -62,7 +62,7 @@ The Citibank data provides key details that highlights trends in bike usage, and
 Let’s take a look at the basics of CitiBike's NYC users in August - there are over 2.3M users, with most of those users being subscribers (approx 80%) and male (approx 70%).  As such, when we break out gender and/or customer type in each of our trend analysis questions, you will see that trend stronger in males and subscribers comparatively.     
 
 
->**[User Overview Workbook](https://public.tableau.com/profile/marty4826#!/vizhome/UserOverviewWorkbook/CitiBike)**
+**[User Overview Workbook](https://public.tableau.com/profile/marty4826#!/vizhome/UserOverviewWorkbook/CitiBike)**
 
 ![User Overview Workbook](https://github.com/MaureenFromuth/bikesharing/blob/main/Overview.png)
 
@@ -74,7 +74,7 @@ Let’s take a look at the basics of CitiBike's NYC users in August - there are 
 What time of day to most people get bikes? In August in NYC, we see users starting rides primarily from 7am-10pm, with the greatest usage from 7am-9am and then again from 4pm-7pm.  This makes sense considering the transit times of most people to/from work.  Additionally, considering the lighter hours in the summer, 7pm is still early enough for daylight and therefore bike riding to be high.  
 
 
->**[Ride Start Times in August](https://public.tableau.com/profile/marty4826#!/vizhome/RideStartTimesinAugust/RideStartTimesinAugust)**
+**[Ride Start Times in August](https://public.tableau.com/profile/marty4826#!/vizhome/RideStartTimesinAugust/RideStartTimesinAugust)**
 
 ![Ride Start Times in August](https://github.com/MaureenFromuth/bikesharing/blob/main/Start%20Times.png)
 
@@ -86,7 +86,7 @@ What time of day to most people get bikes? In August in NYC, we see users starti
 
 Let's break down the start and end of trips even further into days of the week.  The majority of rides are again between 7am-9am and 5pm-6pm, but not surprisingly they are during the traditional work week of Monday through Friday.   On the weekend, however, we see most rides from 10am-6pm, matching the fact that most people do not work on the weekends and therefore can be out traveling on a bike outside of the transit times.
 
->**[Trips by Weekday per Hour](https://public.tableau.com/profile/marty4826#!/vizhome/TripsbyWeekdayperHour/TripsbyWeekdayperHour)**
+**[Trips by Weekday per Hour](https://public.tableau.com/profile/marty4826#!/vizhome/TripsbyWeekdayperHour/TripsbyWeekdayperHour)**
 
 ![Trips by Weekday per Hour](https://github.com/MaureenFromuth/bikesharing/blob/main/Weekday%20per%20Hour.png)
 
@@ -98,7 +98,7 @@ Let's break down the start and end of trips even further into days of the week. 
 
 If we then break the graph above down one step further and look at gender, is there a difference?  As you can see, the trend is the same for male and female riders, but, as we pointed out in the overview, there are more male riders than female.  Interestingly, the trend is slightly different for unknown riders, with the preponderance being on the weekends between 11am and 6pm.  Does this difference in trend have anything to do with whether or not the ‘unknown’ gender is usually assigned to non-subscribing customers who do not have to identify a gender?  
 
->**[Trips by Gender (Weekday per Hour)](https://public.tableau.com/profile/marty4826#!/vizhome/TripsbyGenderWeekdayperHour_16028153655880/TripsbyGenderWeekdayperHour)**
+**[Trips by Gender (Weekday per Hour)](https://public.tableau.com/profile/marty4826#!/vizhome/TripsbyGenderWeekdayperHour_16028153655880/TripsbyGenderWeekdayperHour)**
 
 ![Trips by Gender (Weekday per Hour)](https://github.com/MaureenFromuth/bikesharing/blob/main/Gender%20Weekday%20per%20Hour.png)
 
@@ -108,10 +108,10 @@ If we then break the graph above down one step further and look at gender, is th
 
 ***Does Weekday Usage per Gender Change Based on User Type?***
 
-If we break down gender usage per day into user types, you see most males and females are subscribers, and unknown tend to be customers.  This answers the question above in the previous assessment, and confirms that a likely reason why you see more ‘unknown’ gender riders on the weekend is because they are typically non-subscribers.  Of note, there is an interesting trend on weekday usage by male and female subscribers: Monday, Tuesday, Thursday and Friday have high usage while Wednesday is less active.  This may be for a number of reasons to include shift work, as many shift-work users will have their overlap days on Wednesday.  
+If we break down gender usage per day into user types, you see most males and females are subscribers, and unknown tend to be customers.  This answers the question above in the previous assessment, and confirms that a likely reason why you see more ‘unknown’ gender riders on the weekend is because they are typically non-subscribers.  Of note, there is an interesting trend on weekday usage by male and female subscribers: Monday, Tuesday, Thursday and Friday have high usage while Wednesday is less active.  This may be for a number of reasons to include shift work, as many shift-work users will have their overlap days on Wednesday. 
 
 
->**[User Trips by Gender by Weekday](https://public.tableau.com/profile/marty4826#!/vizhome/UserTripsbyGenderbyWeekday_16028155069180/UserTripsbyGenderbyWeekday)**
+**[User Trips by Gender by Weekday](https://public.tableau.com/profile/marty4826#!/vizhome/UserTripsbyGenderbyWeekday_16028155069180/UserTripsbyGenderbyWeekday)**
 
 ![User Trips by Gender by Weekday](https://github.com/MaureenFromuth/bikesharing/blob/main/Gender%20by%20Weekday.png)
 
@@ -126,7 +126,7 @@ Using the Trip Duration column we transformed, we can see that bike ride duratio
 *Of note, the graph below shows hours and minutes, which is what is stated as ‘correct’ in the module.  This is, however, inaccurate - it should be identified as minutes and seconds instead.  This would require a change in the initial Python/Pandas code above from ‘m’ as units to ’ns’ as units.  In order to keep with the module, I did not make any changes but you can see in this paragraph the changes I would have made.* 
 
 
->**[Checkout Times for Users](https://public.tableau.com/profile/marty4826#!/vizhome/CheckoutTimesforUsers_16028148200070/CheckoutTimesforUsers)**
+**[Checkout Times for Users](https://public.tableau.com/profile/marty4826#!/vizhome/CheckoutTimesforUsers_16028148200070/CheckoutTimesforUsers)**
 
 ![Checkout Times for Users](https://github.com/MaureenFromuth/bikesharing/blob/main/Checkout%20Times.png)
 
@@ -147,3 +147,13 @@ If we dive one level deeper, we can see that bike ride duration peaks at 5 min f
 
 
 
+
+## Summary
+
+Overall, the NYC Citibike data for August 2019 shows a number of trends that will likely be common to any city and others that may be slightly different.  First, the overall number of users will depend on many factors to include city population.  While NYC riders in August were over 2.3M this may not be the same for Des Moines.  Second, depending upon the gender make up of the city, you could likely see a greater mix of males as compared to females and unknown.  This means that whatever trend we see, it is likely to be stronger with male users than the other genders.  Third, depending upon the popularity of subscription service, it is hard to identify the actual breakdown of user type that could be present in Des Moines.  In NYC, however, it is clear that there is a greater incentive to subscribe and therefore a majority of their users are subscribers.  Fourth, most users, male and female, take the majority of their trips Monday through Friday, during morning and afternoon transit times, and then from mid morning to early evening on weekends.  On the weekends, you see more unknown users, which is likely tied to greater number of users who are non-subscribers.  Since this is NYC, those non-subscribers could be visitors to the city rather than locals.  Finally, trip length peaks at around 5 minutes for both males and females and stays fairly steady for unknown users.
+
+*There are a few follow-on questions that can be answers with additional visualizations:*
+
+The first is whether or not the the trip duration changes based on the day of the week.  You can achieve this visualization by replacing the ‘gender’ with the ‘start time’ and day of the week for the color within the Checkout Times by Gender visualization.  From there you can identify how/if the trip durations are longer on the weekend than during the week day.  Interestingly, Thursday and Friday have the longest trip duration, and Sunday has the least.  
+
+The second would be to see if age of the users had any impact on their travel patterns.  More specifically, you could identify the age demographic and gender demographic that uses Citibikes and see how that demographic compares to Des Moines.  You can accomplish this by replacing the ‘Start Time’ in the rows of the ‘Trips by Gender (Weekday per Hour)’ visualization with ‘Birth Year’.  In doing this, you see an interesting trend of ‘unknown’ users with a birthday of 1969 every day of the week.  This may be an error in reporting, or may be the ’preset’ birth year when you register.  Additionally, there is a trend that shows males with a birth year of 1982 - 1996 are the most frequent riders.  
